@@ -1,0 +1,104 @@
+{
+    "dart.flutterSdkPath": "/home/jooj/.sdk/flutter",
+
+
+    // VSCODE CUSTOMS
+
+    // WORKBENCH
+    "workbench.sideBar.location": "right",
+    "workbench.statusBar.visible": false,
+    "workbench.activityBar.location": "top",
+    "workbench.layoutControl.enabled": false,
+    "workbench.colorTheme": "Catppuccin Macchiato",
+    "workbench.editor.showTabs": "multiple",
+    "workbench.editor.enablePreview": false,
+    "workbench.startupEditor": "none",
+    "workbench.editor.editorActionsLocation": "hidden",
+    "workbench.tips.enabled": false,
+    "workbench.editor.enablePreviewFromQuickOpen": true,
+
+    // EDITOR
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {"source.organizeImports": "always",},
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.snippetSuggestions": "top",
+    "editor.detectIndentation": false,
+    "editor.emptySelectionClipboard": true,
+    "editor.multiCursorModifier": "alt",
+    "editor.copyWithSyntaxHighlighting": false,
+    "editor.guides.indentation": false,
+    "editor.minimap.enabled": false,
+    "editor.lineNumbers": "on",
+    "editor.hover.delay": 750,
+    "editor.hover.enabled": true,
+    "editor.matchBrackets": "always",
+    "editor.colorDecorators": true,
+    "editor.lightbulb.enabled": "off",
+    "editor.selectionHighlight": false,
+    "editor.overviewRulerBorder": false,
+    "editor.renderLineHighlight": "none",
+    "editor.occurrencesHighlight": "multiFile",
+    "editor.renderControlCharacters": false,
+    "editor.hideCursorInOverviewRuler": true,
+    // "editor.gotoLocation.multipleReferences": "goto",
+    // "editor.gotoLocation.multipleDefinitions": "goto",
+    // "editor.gotoLocation.multipleDeclarations": "goto",
+    // "editor.gotoLocation.multipleImplementations": "goto",
+    // "editor.gotoLocation.multipleTypeDefinitions": "goto",
+    "editor.fontFamily": " JetBrains Mono",
+    "editor.suggestFontSize": 16,
+    "editor.suggestLineHeight": 30,
+
+
+    // WINDOW
+    "window.titleBarStyle": "custom",
+    "window.commandCenter": false,
+    "window.customTitleBarVisibility": "auto",
+    "window.menuBarVisibility": "toggle",
+    "window.nativeFullScreen": true,
+    "window.newWindowDimensions": "inherit",
+
+    "diffEditor.ignoreTrimWhitespace": false,
+    "files.trimTrailingWhitespace": true,
+    "diffEditor.renderSideBySide": false,
+
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+
+
+    // // Silence the Noise
+    "breadcrumbs.enabled": false,
+    "scm.diffDecorations": "none",
+    "git.decorations.enabled": true,
+
+    "problems.decorations.enabled": true,
+
+    // // Typography
+
+    // "terminal.integrated.lineHeight": 0.50,
+    // "terminal.integrated.fontSize": 13,
+
+    "search.useIgnoreFiles": false,
+    "search.exclude": {
+        "**/node_modules": true,
+        "**/dist": true,
+        "**/_ide_helper.php": true,
+        "**/composer.lock": true,
+        "**/package-lock.json": true,
+        "storage": true,
+        ".phpunit.result.cache": true
+    },
+"files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true,
+    "**/__pycache__": true,
+}
+
+
+
+
+}
